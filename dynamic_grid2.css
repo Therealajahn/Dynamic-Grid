@@ -1,0 +1,17 @@
+#wrapper{
+	display: grid;
+	grid-template-columns: repeat(3, 100px);
+	grid-template-rows: repeat(3,100px);
+	grid-template-areas: 
+	"big sm3 sm1"
+	"big sm3 sm1"
+	"sm2 sm2 sm2";
+	grid-gap: 10px; 
+}
+.square{
+	background-color: black;
+	
+	}
+#sm3{
+	background-color: blue;
+}
