@@ -1,2 +1,2 @@
 # Dynamic-Grid
-A Javascript tool for generating a CSS grid 
+A Javascript tool for generating a CSS grids 
