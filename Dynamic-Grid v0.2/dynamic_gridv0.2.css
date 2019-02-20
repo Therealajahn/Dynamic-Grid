@@ -1,0 +1,13 @@
+
+
+.wrap{
+	display: grid;
+    grid-gap:10px;
+}
+.square{
+	background-color: black;
+	
+	}
+#sm3{
+	background-color: blue;
+}
