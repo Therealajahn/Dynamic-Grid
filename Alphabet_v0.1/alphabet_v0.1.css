@@ -1,0 +1,142 @@
+body{
+    background-color: #000;
+    margin: 0;
+}
+span{
+    float:left;
+}
+/* aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+#a{
+    width: 40px;
+    height: 40px;
+    display: grid;
+     border: solid 5px #fff;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+
+#aBody{
+    background-color: #F62509;
+    grid-area: 1/1/6/6;
+}
+#aInner{
+    background-color: #000;
+    grid-area: 2/2/5/5;
+}
+
+#aVert{
+    background-color: #000;
+    grid-area: 1/3/6/4;
+}
+
+#aHorz{
+    background-color: #000;
+    grid-area: 3/1/3/6;
+}
+
+#aTail{
+    background-color: #E46F1B;
+    grid-area: 6/5/7/6;
+}
+/* bbbbbbbbbbbbbbbbbbbbbbbbbb*/
+#b{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    border: solid 5px #fff;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#bBody{
+    background-color: #F62509;
+    grid-area: 3/1/7/6;
+}
+#bInner{
+    background-color: #000;
+    grid-area: 4/2/6/5;
+}
+
+#bVert{
+    background-color: #000;
+    grid-area: 1/3/7/4;
+}
+
+#bHorz{
+    background-color: #000;
+    grid-area: 5/1/6/6;
+}
+
+#bTail{
+    background-color: #E46F1B;
+    grid-area: 1/1/7/2;
+    z-index: -1;
+}
+
+/* bbbbbbbbbbbbbbbbbbbbbbbbbb*/
+#b{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    
+    border: solid 5px #fff;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#bBody{
+    background-color: #F62509;
+    grid-area: 3/1/7/6;
+}
+#bInner{
+    background-color: #000;
+    grid-area: 4/2/6/5;
+}
+
+#bVert{
+    background-color: #000;
+    grid-area: 1/3/7/4;
+}
+
+#bHorz{
+    background-color: #000;
+    grid-area: 5/1/6/6;
+}
+
+#bTail{
+    background-color: #E46F1B;
+    grid-area: 1/1/7/2;
+    z-index: -1;
+}
+
+/* bbbbbbbbbbbbbbbbbbbbbbbbbb*/
+#b{
+    width: 40px;
+    height: 40px;
+    display: grid;
+    border: solid 5px #fff;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: repeat(6,16.6%);
+}
+#bBody{
+    background-color: #F62509;
+    grid-area: 3/1/7/6;
+}
+#bInner{
+    background-color: #000;
+    grid-area: 4/2/6/5;
+}
+
+#bVert{
+    background-color: #000;
+    grid-area: 1/3/7/4;
+}
+
+#bHorz{
+    background-color: #000;
+    grid-area: 5/1/6/6;
+}
+
+#bTail{
+    background-color: #E46F1B;
+    grid-area: 1/1/7/2;
+    z-index: -1;
+}
